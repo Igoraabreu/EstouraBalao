@@ -137,3 +137,8 @@ function situacao_jogo(baloes_inteiros){
 function parar_jogo(){
 	clearTimeout(timerId);
 }
+
+function voltar_paginicial(){
+	
+	window.location.href = 'index.html';
+}
